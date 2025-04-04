@@ -1,0 +1,46 @@
+body{
+    background-image: url('../pictures/about_background.jpeg');
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: all 0.5s ease-in-out;
+    
+}
+header{
+    background-color: rgba(165, 42, 42, 0.658);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transition: width 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+}
+.navigation{
+    position: relative;
+    right: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    position: relative;
+    left: 10px;
+}
+a{
+    color: white;
+}
+.cv{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.cv:hover{
+    cursor: pointer;
+}
