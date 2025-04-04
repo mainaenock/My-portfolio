@@ -1,26 +1,30 @@
 body{
-    background-image: url('../pictures/about_background.jpeg');
+    background-image:  url('../pictures/about_background.jpeg');
     background-size: cover;
-    color: white;
+    color: #fff;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     transition: all 0.5s ease-in-out;
-    
+    font-family: Arial, sans-serif;
 }
+
 header{
-    background-color: rgba(165, 42, 42, 0.658);
+    background-color: rgba(165, 42, 42, 1);
     display: flex;
-    color: white;
+    color: #fff;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
-    transition: width 0.5s ease-in-out;
-    transition: height 0.5s ease-in-out;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #FF69B4;
 }
+
 .navigation{
     position: relative;
     right: 10px;
@@ -29,18 +33,85 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 h3{
     position: relative;
     left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF69B4;
 }
+
 a{
-    color: white;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
+
+a:hover{
+    color: #FFC080;
+}
+
 .cv{
     padding: 10px;
     border: 0px;
     border-radius: 5px;
-}
-.cv:hover{
+    background-color: #FFC080;
     cursor: pointer;
+}
+
+.cv:hover{
+    background-color: #FF69B4;
+}
+
+.graphic-pic img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.graphic{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 70px;
+    border: 1px solid #FF69B4;
+    border-radius: 10px;
+    left: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FFC080;
+}
+
+.graphic-pic img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.graphic{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 70px;
+    border: 1px solid #FFC080;
+    border-radius: 10px;
+    left: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
